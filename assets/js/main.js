@@ -47,7 +47,7 @@ if(form){
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
     <div class="modal">
-      <h3>Policy Notice</h3>
+      <h3>TonyBee</h3>
       <p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn" id="age-yes">Yes, Accept</button>
@@ -95,12 +95,12 @@ if(form){
   function closeGate(){ bd.style.display='none'; bd.remove(); }  
   // ✅ Redirect when "Yes" is clicked
   bd.querySelector('#age-yes').addEventListener('click', function(){
-    window.location.href = "https://boosthive.site/"; // change to your target page
+    window.location.href = "https://nexlora.site/"; // change to your target page
   });
 
   // ✅ Just close modal when "No" is clicked
   bd.querySelector('#age-no').addEventListener('click', function(){
-    window.location.href = "https://boosthive.site/"; // change to your target page
+    window.location.href = "https://nexlora.site/"; // change to your target page
   });
 })();
 
